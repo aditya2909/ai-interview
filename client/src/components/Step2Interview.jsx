@@ -10,7 +10,7 @@ import { useRef } from "react";
 import { useEffect } from "react";
 import axios from "axios";
 
-const ServerUrl = "https://ai-interview-fpa2.onrender.com/";
+const ServerUrl = "https://ai-interview-fpa2.onrender.com";
 
 function Step2Interview({ interviewData, onFinish }) {
   const { interviewId, questions, username } = interviewData;

@@ -11,7 +11,7 @@ import InterviewHistory from "./pages/InterviewHistory";
 import Pricing from "./pages/Pricing";
 import InterviewReport from "./pages/InterviewReport";
 
-const ServerUrl = "http://localhost:8000";
+const ServerUrl = "https://ai-interview-fpa2.onrender.com";
 
 const App = () => {
   const dispatch = useDispatch();

@@ -9,7 +9,7 @@ import { useDispatch } from "react-redux";
 import { setUserData } from "../redux/userSlice";
 import { useNavigate } from "react-router-dom";
 
-const ServerUrl = "https://ai-interview-fpa2.onrender.com/";
+const ServerUrl = "https://ai-interview-fpa2.onrender.com";
 
 const Auth = ({ isModel = false }) => {
   const dispatch = useDispatch();

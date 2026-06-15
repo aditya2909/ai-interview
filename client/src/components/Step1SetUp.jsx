@@ -6,7 +6,7 @@ import axios from "axios";
 import { useDispatch, useSelector } from "react-redux";
 import { setUserData } from "../redux/userSlice";
 
-const ServerUrl = "https://ai-interview-fpa2.onrender.com/";
+const ServerUrl = "https://ai-interview-fpa2.onrender.com";
 
 function Step1SetUp({ onStart }) {
   const { userData } = useSelector((state) => state.user);

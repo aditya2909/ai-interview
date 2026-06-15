@@ -6,7 +6,7 @@ import { motion } from "motion/react";
 import { buildStyles, CircularProgressbar } from "react-circular-progressbar";
 import Step3Report from "../components/Step3Report";
 
-const ServerUrl = "https://ai-interview-fpa2.onrender.com/";
+const ServerUrl = "https://ai-interview-fpa2.onrender.com";
 
 function InterviewReport() {
   const { id } = useParams();
