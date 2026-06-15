@@ -6,7 +6,7 @@ import axios from "axios";
 import { useDispatch } from "react-redux";
 import { setUserData } from "../redux/userSlice";
 
-const ServerUrl = "http://localhost:8000";
+const ServerUrl = "https://ai-interview-fpa2.onrender.com/";
 
 function Pricing() {
   const navigate = useNavigate();

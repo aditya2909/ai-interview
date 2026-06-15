@@ -15,6 +15,7 @@ import {
 } from "recharts";
 
 function Step3Report({ report }) {
+  const navigate = useNavigate();
   if (!report) {
     return (
       <div className="min-h-screen flex items-center justify-center">
@@ -22,7 +23,6 @@ function Step3Report({ report }) {
       </div>
     );
   }
-  const navigate = useNavigate();
   const {
     finalScore = 0,
     confidence = 0,

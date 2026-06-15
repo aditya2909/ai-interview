@@ -9,7 +9,7 @@ import axios from "axios";
 import { setUserData } from "../redux/userSlice";
 import AuthModel from "./AuthModel";
 
-const ServerUrl = "http://localhost:8000";
+const ServerUrl = "https://ai-interview-fpa2.onrender.com/";
 
 const Navbar = () => {
   const { userData } = useSelector((state) => state.user);

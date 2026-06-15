@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import { FaArrowLeft } from "react-icons/fa6";
 import { useNavigate } from "react-router-dom";
 
-const ServerUrl = "http://localhost:8000";
+const ServerUrl = "https://ai-interview-fpa2.onrender.com/";
 
 function InterviewHistory() {
   const [interviews, setInterviews] = useState([]);
